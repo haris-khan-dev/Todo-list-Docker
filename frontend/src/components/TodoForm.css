@@ -1,0 +1,48 @@
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 1rem;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  outline: none;
+  background: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+.todo-input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+}
+
+.add-btn {
+  padding: 14px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.add-btn:hover {
+  transform: translateY(-2px);
+  background: #333333;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.add-btn:active {
+  transform: translateY(0);
+  background: #000000;
+}
+
