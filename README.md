@@ -307,14 +307,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the ISC License.
-
-## 👨‍💻 Author
-
-Built with ❤️ for efficient task management.
 
 ---
 
 **Note**: The backend uses in-memory storage for simplicity. Todos will reset when the server restarts. For production use, consider integrating a database like MongoDB, PostgreSQL, or MySQL.
+
